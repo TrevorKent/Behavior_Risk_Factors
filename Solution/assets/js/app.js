@@ -25,9 +25,9 @@ var circRadius;
 
 function crGet() {
     if (width <= 530) {
-        circRadius = 5;
-    } else {
         circRadius = 10;
+    } else {
+        circRadius = 15;
     }
 }
 crGet();
